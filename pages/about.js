@@ -9,7 +9,7 @@ function About() {
         <title>Rizki Darmawan - Little about me </title>
         <meta name="description" content="about rizki darmawan" />
       </Head>
-      <section className="pt-32 pb-20  csm:pt-24 dark:bg-gradient-to-r from-teal-800 to-violet-900 ">
+      <section className="pt-32 pb-20  csm:pt-24 dark:bg-gradient-to-r from-teal-800 to-violet-900">
         <div className="mb-20 csm:mb-11">
           <h2 className="text-gray-600 font-bold text-4xl  mb-4 uppercase text-center cmd:text-3xl cmd:mb-2 csm:mb-1 csm:text-xl dark:text-gray-300">
             about <span className="text-teal-500">me</span>
@@ -35,7 +35,7 @@ function About() {
               <h6>Rizki Darmawan</h6>
               <h6>March, 30th 1996</h6>
               <h6>+6287889620618</h6>
-              <h6>rizdar.contact@gmail.com</h6>
+              <h6 className="csm:text-sm">rizdar.contact@gmail.com</h6>
               <h6>Pemalang, Indonesia</h6>
             </div>
           </div>

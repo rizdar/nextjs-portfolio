@@ -39,7 +39,7 @@ function Layout(props) {
               open ? 'csm:visible' : 'csm:invisible'
             }  csm:opacity-95 transition-all duration-75`}
           >
-            <ul className="flex gap-10 csm:flex csm:h-screen csm:w-full csm:flex-col csm:justify-center">
+            <ul className="flex gap-10 csm:flex csm:h-3/4 csm:w-full csm:flex-col csm:justify-center">
               <li className="cursor-pointer  csm:text-center hover:text-teal-500 csm:text-gray-300">
                 <Link href="/" className={router.pathname === '/' ? 'text-teal-500' : ''} onClick={closeHandler}>
                   HOME
