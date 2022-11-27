@@ -24,7 +24,7 @@ export default function Home() {
             <p className="italic text-lg text-gray-500 csm:text-xs dark:text-gray-400">
               I'm a junior frontend web developer with modern technology, and also has a degree in Informatics Engineering. I'm currently learning to be a fullstack developer too.
             </p>
-            <Link href="/about" className="mt-20 clg:mt-16 cmd:mt-10 csm:mt-4 mb-8 uppercase inline-block text-white bg-teal-500 py-2 px-4 rounded-md hover:bg-teal-400 font-semibold csm:text-[8px] csm:py-1 csm:px-2">
+            <Link href="/about" className="mt-20 clg:mt-16 cmd:mt-10 csm:mt-4 mb-8 uppercase inline-block text-white bg-teal-500 py-2 px-4 rounded-md hover:bg-teal-400 font-semibold csm:text-sm ">
               Contact Me
             </Link>
           </div>
