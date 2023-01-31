@@ -13,15 +13,15 @@ export default function Home() {
       </Head>
 
       <section className="text-center  mt-14 cmd:mt-10 csm:py-14 dark:bg-gray-900">
-        <div className="p-20  mx-auto clg:p-16 cmd:p-10 csm:p-2 ">
+        <div className="p-20  mx-auto clg:p-16 cmd:p-10 csm:p-4 csm:text-left ">
           <div>
             <h5 className="text-gray-600 font-medium text-2xl mb-4 csm:text-lg csm:mb-1 dark:text-gray-400">Hello I'am</h5>
-            <h1 className="text-gray-700 font-bold text-6xl uppercase mb-4 csm:mb-1 clg:text-5xl csm:text-3xl dark:text-gray-300">Rizki Darmawan</h1>
-            <h4 className="text-teal-500 font-bold text-4xl uppercase mb-4 clg:text-3xl csm:text-[18px] csm:mb-1">Front End Engineering</h4>
+            <h1 className="text-gray-700 font-bold text-6xl uppercase mb-4 csm:mb-1 clg:text-5xl  dark:text-gray-300">Rizki Darmawan</h1>
+            <h4 className="text-teal-500 font-bold text-4xl uppercase mb-4 clg:text-3xl  csm:mb-1">Front End Engineer</h4>
           </div>
-          <hr className="block w-1/2  csm:w-3/4 mx-auto  h-1 bg-teal-500 rounded  " />
-          <div className="mt-4 mx-auto max-w-5xl csm:mt-2 csm:p-2 ">
-            <p className="italic text-lg text-gray-500 csm:text-xs dark:text-gray-400">
+          <hr className="block w-1/2  csm:w-full mx-auto  h-1 bg-teal-500 rounded  " />
+          <div className="mt-4 mx-auto max-w-5xl csm:mt-2  ">
+            <p className="italic text-lg text-gray-500  dark:text-gray-400">
               I'm a junior frontend web developer with modern technology, and also has a degree in Informatics Engineering. I'm currently learning to be a fullstack developer too.
             </p>
             <Link href="/about" className="mt-20 clg:mt-16 cmd:mt-10 csm:mt-4 mb-8 uppercase inline-block text-white bg-teal-500 py-2 px-4 rounded-md hover:bg-teal-400 font-semibold csm:text-sm ">
